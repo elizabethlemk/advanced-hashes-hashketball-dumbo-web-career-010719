@@ -168,12 +168,12 @@ def player_numbers (team_name)
         player.each do |key, value|
           if key == :number
             player_numbers_list << value
-            return player_numbers_list
           end
         end
       end
     end
   end
+  player_numbers_list
 end
 
 def player_stats(player_name)
